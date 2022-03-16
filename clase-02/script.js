@@ -19,7 +19,7 @@ if (document.body.classList.contains("aquipo")) {
 //voy a buscar unos datos
 var harrypotter;
 function preload() {
-    var api = "http://hp-api.herokuapp.com/api/characters/staff";
+    var api = "https://hp-api.herokuapp.com/api/characters/staff";
     harrypotter = loadJSON(api);
 }
 //tomo el main
